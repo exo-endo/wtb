@@ -55,7 +55,8 @@ window.WTB_SECTIONS = [
             name: "White WASD Side Printed",
             image: "assets/topre/keysets/white wasd wtb.jpg",
             alt: "White WASD",
-            contain: true
+            contain: true,
+            imageSize: "small"
           }
         //   {
         //     name: "Verkkokauppa green ISO modifier kit",

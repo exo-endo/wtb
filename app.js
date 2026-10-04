@@ -27,7 +27,8 @@ function renderImageFrame(item) {
 }
 
 function renderCard(item) {
-  const card = createElement("article", "card");
+  const cardClass = item.imageSize ? `card card--image-${item.imageSize}` : "card";
+  const card = createElement("article", cardClass);
   const body = createElement("div", "card-body");
   const name = createElement("div", "name", item.name);
 

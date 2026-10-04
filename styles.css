@@ -107,6 +107,11 @@ h2 {
   object-fit: contain;
 }
 
+.card--image-small .image-frame img {
+  width: 64%;
+  height: 64%;
+}
+
 .image-frame--gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
