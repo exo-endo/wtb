@@ -18,7 +18,7 @@ window.WTB_SECTIONS = [
             alt: "Realforce 87U beige blank reference"
           },
           {
-            name: "White Mono Zhuyin Realforce 103U",
+            name: "Realforce 103U White Mono Zhuyin",
             image: "assets/topre/boards/realforce-103u-white-mono-zhuyin.png",
             alt: "White mono Zhuyin Realforce reference"
           }
@@ -27,12 +27,12 @@ window.WTB_SECTIONS = [
       {
         label: "OEM Realforce keysets",
         items: [
-          {
-            name: "Realforce R1 Green Blanks",
-            image: "assets/topre/keysets/realforce-r1-green-blanks.png",
-            alt: "Green Realforce blanks",
-            contain: true
-          },
+        //   {
+        //     name: "Realforce R1 Green Blanks",
+        //     image: "assets/topre/keysets/realforce-r1-green-blanks.png",
+        //     alt: "Green Realforce blanks",
+        //     contain: true
+        //   },
           {
             name: "EliteKeyboards enters",
             images: [
@@ -52,11 +52,17 @@ window.WTB_SECTIONS = [
             note: "Reference colorway / enter keys.",
           },
           {
-            name: "Verkkokauppa green ISO modifier kit",
-            image: "assets/topre/keysets/verkkokauppa-green-iso-modifiers.jpg",
-            alt: "Green ISO modifier kit",
+            name: "White WASD Side Printed",
+            image: "assets/topre/keysets/white wasd wtb.jpg",
+            alt: "White WASD",
             contain: true
           }
+        //   {
+        //     name: "Verkkokauppa green ISO modifier kit",
+        //     image: "assets/topre/keysets/verkkokauppa-green-iso-modifiers.jpg",
+        //     alt: "Green ISO modifier kit",
+        //     contain: true
+        //   }
         ]
       }
     ]
@@ -105,7 +111,7 @@ window.WTB_SECTIONS = [
       {
         category: "Board",
         name: "Linworks R1 Whale",
-        note: "From the 2012 GB · bonus points if you have my old R1 silver.",
+        note: "From the 2012 GB, bonus points if you have my old R1 silver.",
         href: "https://www.kbdarchive.org/otd_archive/album_post.php?post_id=180417",
         linkLabel: "OLD R1"
       },
