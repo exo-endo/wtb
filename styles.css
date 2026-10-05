@@ -74,8 +74,8 @@ h2 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, min(100%, 250px));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, min(100%, 340px));
+  gap: 24px;
 }
 
 .card {
